@@ -26,10 +26,10 @@ function Skill() {
             C <br />
             C++ <br />
             Java <br />
-            JavaScript <br />
-            Data Structure
+            Data Structures
             <br />
             Algorithms <br />
+            SQL <br />
           </h3>
         </div>
       </div>

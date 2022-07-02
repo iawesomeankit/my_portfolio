@@ -8,7 +8,7 @@ import Contact from "./Contact";
 import Buttonn from "./Buttonn";
 function Home() {
   return (
-    <>
+    <section id="home">
       <div class="center">
         <h1>
           <span className="im"> &nbsp; &nbsp; i'm</span> <br />{" "}
@@ -26,7 +26,7 @@ function Home() {
       <Service />
       <Skill />
       <Contact />
-    </>
+    </section>
   );
 }
 
