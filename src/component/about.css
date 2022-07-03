@@ -18,3 +18,8 @@ h2{
 .bd{
     font-weight: bold;
 }
+@media (max-width:500px){
+    .about{
+        height: 100vh;
+    }
+}

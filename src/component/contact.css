@@ -40,3 +40,14 @@ form textarea{
     border-radius: 25px;
     cursor: pointer;
 }
+@media (max-width:500px){
+    form input{
+        width: 90%;
+    }
+    form textarea{
+        width: 90%;
+    }
+    .sub{
+        width: 90%;
+    }
+}

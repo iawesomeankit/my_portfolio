@@ -23,3 +23,8 @@
     margin: 20px;
     
 }
+@media (max-width:500px){
+    .skill-c{
+        height: 100vh;
+    }
+}
