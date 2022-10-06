@@ -6,6 +6,9 @@ import Contact from "./component/Contact";
 import About from "./component/About";
 import Service from "./component/Service";
 import Skill from "./component/Skill";
+import Blogs from "./component/Blogs";
+import Bloggs from "./component/Blogss";
+import Blog from "./component/Blog";
 function App() {
   return (
     <>
@@ -16,7 +19,10 @@ function App() {
           <Route path="#about" element={<About />} exact></Route>
           <Route path="#services" element={<Service />} exact></Route>
           <Route path="#skills" element={<Skill />} exact></Route>
+          <Route path="#blogs" element={<Blogs />} exact></Route>
           <Route path="#contact" element={<Contact />} exact></Route>
+          <Route path="/blogs" element={<Bloggs />} exact></Route>
+          <Route path="/blog/:id" element={<Blog />} exact></Route>
         </Routes>
       </Router>
     </>

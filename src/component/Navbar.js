@@ -15,19 +15,22 @@ function Navbar() {
         className={mobile ? "nav-links-mobile" : "nav-links"}
         onClick={() => setMobile(false)}
       >
-        <a href="#home">
+        <a href="/">
           <li>Home</li>
         </a>
-        <a href="#about">
+        <a href="/#about">
           <li>About</li>
         </a>
-        <a href="#service">
+        <a href="/#service">
           <li>Projects</li>
         </a>
-        <a href="#skill">
+        <a href="/#skill">
           <li>Skills</li>
         </a>
-        <a href="#contact">
+        <a href="/#blogs">
+          <li>Blogs</li>
+        </a>
+        <a href="/#contact">
           <li id="cntc">CONTACT ME</li>
         </a>
       </ul>

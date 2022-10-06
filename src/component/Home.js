@@ -6,6 +6,7 @@ import Service from "./Service";
 import Skill from "./Skill";
 import Contact from "./Contact";
 import Buttonn from "./Buttonn";
+import Blogs from "./Blogs";
 function Home() {
   return (
     <section id="home">
@@ -25,6 +26,7 @@ function Home() {
       <About />
       <Service />
       <Skill />
+      <Blogs/>
       <Contact />
     </section>
   );

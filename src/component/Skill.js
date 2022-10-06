@@ -15,9 +15,9 @@ function Skill() {
           <h3 className="skl">
             Html <br />
             Css <br />
-            Bootstrap <br />
             JavaScript <br />
             ReactJs <br />
+            Php <br />
             Git & Github <br />
           </h3>
         </div>
