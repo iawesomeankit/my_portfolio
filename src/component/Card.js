@@ -6,7 +6,7 @@ function Card({ image, textt }) {
     <>
       <div className="card">
         <div className="imgg">
-          <img src={image} alt="mi.com" />
+          <img className="card-img" src={image} alt="mi.com" />
         </div>
         <div className="c-txt">
           <h4 className="c-t"> {textt} </h4>

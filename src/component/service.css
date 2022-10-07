@@ -1,3 +1,7 @@
+#service{
+    background-color:#f0f0f0;
+    height: fit-content;
+}
 .pro-center{
     display: flex;
     flex-wrap: wrap;
@@ -6,11 +10,10 @@
     align-items: center;
     flex-direction: row;
 }
-.head{
+.headd{
     align-items: center;
     text-align: center;
-    margin-top: 50px;
-    margin-bottom: 30px;
+    padding: 25px;
     font-size: 35px;
     font-weight: bold;
 }
